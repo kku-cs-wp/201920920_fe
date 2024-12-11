@@ -1,0 +1,55 @@
+# ============================
+# 1. OS 특성 파일 제외
+# ============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.\#*
+
+# ============================
+# 2. IDE 특성 파일 제외
+# ============================
+
+# Eclipse
+.project
+.classpath
+.settings/
+*.launch
+.metadata/
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+
+# ============================
+# 3. Maven 빌드 디렉토리 제외
+# ============================
+
+/target/
+
+# ============================
+# 4. 컴파일된 파일 제외
+# ============================
+
+# Java class files
+*.class
+
+# JAR, WAR, EAR 파일
+*.jar
+*.war
+*.ear
